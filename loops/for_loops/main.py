@@ -4,6 +4,8 @@ prices = [12.99, 8.50, 15.75, 23.00, 7.25]
 total = 0
 
 #Use a for loop to iterate through each price in the prices list.
+#Add each price to the total variable inside the loop.
+#Print the final total after the loop completes.
 for price in prices:
     total += price
     print(total)
